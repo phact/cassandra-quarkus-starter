@@ -1,4 +1,4 @@
-package com.datastax.powertools.cassandra;
+package project;
 
 public class CassandraClusterConfiguration {
 

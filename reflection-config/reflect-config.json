@@ -84,44 +84,6 @@
   ]
 },
 {
-  "name":"com.datastax.powertools.LanderResource",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allPublicMethods":true,
-  "allDeclaredConstructors":true,
-  "allPublicConstructors":true
-},
-{
-  "name":"com.datastax.powertools.api.CassandraNode",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.datastax.powertools.api.LanderMission",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.datastax.powertools.api.LanderSequence",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.datastax.powertools.cassandra.CassandraClusterConfiguration",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.datastax.powertools.cassandra.CassandraManager"
-},
-{
-  "name":"com.datastax.powertools.missioncontrol.MissionControlManager"
-},
-{
   "name":"com.esri.core.geometry.ogc.OGCGeometry"
 },
 {
