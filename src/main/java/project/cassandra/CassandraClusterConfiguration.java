@@ -3,7 +3,7 @@ package project;
 public class CassandraClusterConfiguration {
 
     private int cqlPort = 9042;
-    private String contactPoints;
+    private String contactPoints = "localhost";
     private String localDC;
     private String cqlUserName;
     private String cqlPassword;

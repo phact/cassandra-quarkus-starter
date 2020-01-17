@@ -4,6 +4,7 @@ import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.CqlSessionBuilder;
 import com.datastax.oss.driver.api.core.metadata.Node;
 import org.jboss.logging.Logger;
+import project.CassandraClusterConfiguration;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.net.ssl.KeyManagerFactory;

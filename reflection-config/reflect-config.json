@@ -627,10 +627,6 @@
   ]
 },
 {
-  "name":"java.nio.Bits",
-  "fields":[{"name":"UNALIGNED"}]
-},
-{
   "name":"java.nio.Buffer",
   "allDeclaredMethods":true,
   "fields":[{"name":"address", "allowUnsafeAccess":true}]
@@ -681,10 +677,6 @@
 },
 {
   "name":"javax.ws.rs.ext.ContextResolver"
-},
-{
-  "name":"jdk.internal.misc.Unsafe",
-  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
 },
 {
   "name":"jnr.ffi.Platform",
@@ -756,13 +748,6 @@
   "allPublicMethods":true
 },
 {
-  "name":"jnr.ffi.provider.jffi.NativeClosureProxy$$impl$$0",
-  "methods":[
-    {"name":"<init>","parameterTypes":["jnr.ffi.provider.jffi.NativeRuntime","java.lang.Object[]"] }, 
-    {"name":"invoke","parameterTypes":["int"] }
-  ]
-},
-{
   "name":"jnr.ffi.provider.jffi.PointerParameterStrategy",
   "methods":[{"name":"address","parameterTypes":["jnr.ffi.Pointer"] }]
 },
@@ -811,28 +796,12 @@
   "methods":[{"name":"nativeType","parameterTypes":[] }]
 },
 {
-  "name":"jnr.posix.Crypt",
-  "allPublicMethods":true
-},
-{
-  "name":"jnr.posix.Crypt$jnr$ffi$2",
-  "methods":[{"name":"<init>","parameterTypes":["jnr.ffi.Runtime","jnr.ffi.provider.jffi.NativeLibrary","java.lang.Object[]"] }]
-},
-{
   "name":"jnr.posix.LibC$LibCSignalHandler",
   "allPublicMethods":true
 },
 {
   "name":"jnr.posix.LinuxLibC",
   "allPublicMethods":true
-},
-{
-  "name":"jnr.posix.LinuxLibC$VariableAccessor$$0",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Object[]"] }]
-},
-{
-  "name":"jnr.posix.LinuxLibC$jnr$ffi$1",
-  "methods":[{"name":"<init>","parameterTypes":["jnr.ffi.Runtime","jnr.ffi.provider.jffi.NativeLibrary","java.lang.Object[]"] }]
 },
 {
   "name":"jnr.posix.LinuxPOSIX$1",
@@ -1418,7 +1387,6 @@
     {"name":"getInt","parameterTypes":["long"] }, 
     {"name":"getLong","parameterTypes":["long"] }, 
     {"name":"getShort","parameterTypes":["long"] }, 
-    {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, 
     {"name":"putAddress","parameterTypes":["long","long"] }, 
     {"name":"putByte","parameterTypes":["long","byte"] }, 
     {"name":"putDouble","parameterTypes":["long","double"] }, 
