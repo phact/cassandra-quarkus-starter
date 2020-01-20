@@ -84,9 +84,6 @@
   ]
 },
 {
-  "name":"com.esri.core.geometry.ogc.OGCGeometry"
-},
-{
   "name":"com.fasterxml.jackson.core.JsonParser"
 },
 {
